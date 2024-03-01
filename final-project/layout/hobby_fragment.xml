@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Hosts the layout for a hobby page. This is the layout
+for a fragment, managed by Fragment1.java
+ -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.bloomu.finalproject.HobbyFragment">
+
+    <!--Title for the goals list-->
+    <TextView
+        android:id="@+id/goals_list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/goals_list"
+        app:layout_constraintRight_toRightOf="@id/goals_list"
+        app:layout_constraintBottom_toTopOf="@id/goals_list"
+        />
+
+    <!--Title for the tasks list-->
+    <TextView
+        android:id="@+id/tasks_list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/tasks_list"
+        app:layout_constraintRight_toRightOf="@id/tasks_list"
+        app:layout_constraintBottom_toTopOf="@id/tasks_list"
+        />
+
+    <!--ListView to display goals-->
+    <ListView
+        android:id="@+id/goals_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:divider="@color/material_blue_grey_800"
+        android:dividerHeight="1dp"
+        android:footerDividersEnabled="false"
+        android:longClickable="true"
+        app:layout_constraintTop_toBottomOf="@id/goals_list_title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/tasks_list"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <!--ListView to display tasks-->
+    <ListView
+        android:id="@+id/tasks_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:divider="@color/material_blue_grey_800"
+        android:dividerHeight="1dp"
+        android:footerDividersEnabled="false"
+        android:longClickable="true"
+        app:layout_constraintTop_toBottomOf="@id/tasks_list_title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/goals_list"
+        />
+
+    <!--Button to add a new goal-->
+    <Button
+        android:id="@+id/add_goal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/add_task"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <!--Button to add a new task-->
+    <Button
+        android:id="@+id/add_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/add_goal"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

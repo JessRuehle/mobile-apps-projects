@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".HobbiesActivity">
+
+    <!-- Title of page -->
+    <TextView
+        android:id="@+id/hobby_activity_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/hobbies_activity_title_text"
+        android:textSize="40sp"/>
+
+    <ListView
+        android:id="@+id/hobby_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/material_blue_grey_800"
+        android:dividerHeight="1dp"
+        android:footerDividersEnabled="false"/>
+
+    <TextView
+        android:id="@+id/hobby_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp" />
+
+    <!--
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/textbox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+-->
+
+
+    <!--
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:menu="@menu/bottom_nav_bar" />
+-->
+
+</LinearLayout>

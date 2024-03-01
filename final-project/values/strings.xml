@@ -1,0 +1,67 @@
+<resources>
+    <!--A-->
+    <string name="add">Add</string>
+    <string name="add_goal_project">Add Goal/Project</string>
+    <string name="add_task">Add Task</string>
+    <string name="add_task_first">Select \'Add Task\' to start working towards your goals and projects!</string>
+    <string name="app_name">FinalProject</string>
+    <string name="are_you_sure">By marking this task as completed, you will have
+        finished all your tasks for your goal/project. Are you sure you would still like to set this as completed?</string>
+
+    <!--C-->
+    <string name="cancel">Cancel</string>
+    <string name="completed">Completed?</string>
+    <string name="complete_goal">Complete Goal?</string>
+    <string name="confirm">Confirm</string>
+    <string name="congratulations">Congratulations on completing your goal/project!</string>
+
+    <!--D-->
+    <string name="delete_task">Delete Task?</string>
+    <string name="delete_goal">Delete Goal/Project?</string>
+    <string name="delete_hobby">Delete hobby?</string>
+    <string name="description_msg">Please enter a description.</string>
+    <string name="duplicate">This hobby already exists! Cannot add.</string>
+
+    <!--E-->
+    <string name="enter_name">Enter name....</string>
+
+    <!--I-->
+    <string name="input_description_hint">Description....</string>
+
+    <!--H-->
+    <string name="hobbies_activity_title_text">Hobby Space</string>
+    <string name="hobbytextbox">Enter a name for your hobby:</string>
+
+    <!--L-->
+    <string name="left_title">Goals and Projects</string>
+
+    <!--M-->
+    <string name="menu_home">Home</string>
+    <string name="menu_list">Hobbies</string>
+    <string name="menu_network">Network</string>
+    <string name="menu_profile">Profile</string>
+
+    <!--N-->
+    <string name="new_goal">New Goal</string>
+    <string name="new_task">New Task</string>
+    <string name="no">No</string>
+    <string name="no_goals">No Goals.</string>
+    <string name="no_goals_yet">Add a new goal or project to start creating tasks!</string>
+
+    <!--P-->
+    <string name="provide_name">Please enter a new name for your hobby.</string>
+
+    <!--R-->
+    <string name="right_title">Tasks</string>
+
+    <!--S-->
+    <string name="select_goal">Please select a goal or project to add a task.</string>
+    <string name="select_goal_edit">Please select a goal or project to edit a task.</string>
+
+    <!--T-->
+    <string name="task_details">Task Details</string>
+
+    <!--Y-->
+    <string name="yes">Yes</string>
+
+</resources>
